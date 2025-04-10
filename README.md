@@ -169,7 +169,8 @@ By recording exact timestamps and actions, defenders can reconstruct attacker se
 
 📸 Screenshot Example:
 ### Wordpress Login page
-![webpag](https://github.com/user-attachments/assets/cca11427-bf9b-4ac0-ac73-c5cf0904d7b1)
+![Screenshot (11)](https://github.com/user-attachments/assets/238b7721-6206-4e36-8936-067638cf8078)
+
 
 ### logs 
 ![http](https://github.com/user-attachments/assets/f3a12d3a-7f7f-4a99-8432-d3d274a5a39d)
