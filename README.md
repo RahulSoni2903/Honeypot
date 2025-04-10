@@ -54,6 +54,23 @@ This allows logging of malicious connection attempts and shell activity without 
 
 ![ssh server](https://github.com/user-attachments/assets/52f9ccbd-184f-4a05-86b0-83b33636b969)
 
+## 🧑‍💻 Attacker's Machine – Simulated Unauthorized Access
+
+📌 **Label:** Attacker's Machine
+
+This screenshot captures the activity of an attacker connecting to a private network service hosted within the XYZ infrastructure. The attacker has successfully established an SSH connection to the honeypot system, which emulates a vulnerable server environment.
+
+- **Username:** `username`  
+- **Password:** `password`  
+- **Target IP Address:** `127.0.0.1` (localhost)  
+- **Port:** `2225`  
+
+After authentication, the attacker is granted access to a decoy shell interface. Within this fake environment, the attacker attempts basic reconnaissance, such as listing directories and reading configuration files. These interactions are logged for monitoring and analysis purposes.
+
+This setup allows researchers and administrators to observe and study real-world attacker behavior in a controlled and safe environment.
+
+![ubuntu](https://github.com/user-attachments/assets/d8db4f13-39e4-4af2-9df8-6a8a1595afc8)
+
 
 
 
