@@ -128,5 +128,52 @@ The primary purpose of this Web Honeypot is to mimic a real-world web server, tr
 
 ![web_honey](https://github.com/user-attachments/assets/aca8601c-0e59-4342-a370-430865383add)
 
+## 🧠 Web Honeypot Logging – HTTP Audit System
+
+📌 **Label:** Web Honeypot Server
+
+This component of the honeypot infrastructure emulates a vulnerable web application interface, capturing malicious interactions with precision. The system is crafted to resemble a real website and is highly effective at deceiving threat actors attempting unauthorized access.
+
+### 🔓 Credential Trap Mechanism
+
+The honeypot presents a fake login form (e.g., `admin.html`) that appears functional to the attacker. Common attacker behavior includes attempting access using **default credentials**, such as:
+
+- **Username:** admin
+- **Password:** password
+
+Upon submission, the system simulates a successful login response — but in reality, it silently logs the entire interaction.
+
+### 🕵️ HTTP Audit Logging
+
+Every HTTP request made to the honeypot is recorded in the `http_audits.log` file. These logs provide:
+
+- 🌐 **Source IP Address**
+- 🧑‍💻 **Attempted Credentials**
+- 🕒 **Exact Timestamps**
+- 🌍 **Targeted Paths (e.g., `/admin.html`, `/login`)**
+
+
+📌 Purpose of HTTP Audit Logs
+The http_audits.log file helps cybersecurity professionals:
+
+Monitor attacker behavior and timing
+
+Capture brute-force or credential-stuffing attempts
+
+Analyze attacker tools and automation scripts
+
+Develop alerting mechanisms based on access patterns
+
+💡 Bonus Insight
+By recording exact timestamps and actions, defenders can reconstruct attacker sessions for analysis or legal reporting. These logs also serve as evidence for red-team/blue-team exercises or academic research in web-based attack strategies.
+
+📸 Screenshot Example:
+### Wordpress Login page
+![webpag](https://github.com/user-attachments/assets/cca11427-bf9b-4ac0-ac73-c5cf0904d7b1)
+
+
+
+
+
 
 
