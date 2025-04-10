@@ -71,6 +71,29 @@ This setup allows researchers and administrators to observe and study real-world
 
 ![ubuntu](https://github.com/user-attachments/assets/d8db4f13-39e4-4af2-9df8-6a8a1595afc8)
 
+## 📄 Audit Logging – Core of the SSH Honeypot
+
+📌 **Label:** Audit Logging System
+
+This screenshot represents the core functionality of the honeypot — the **audit logging** mechanism. When an unauthorized user attempts to access the SSH service, the system captures critical metadata including the **IP address**, **username**, and **password** used during the login attempt.
+
+- **Captured IP:** `127.0.0.1` (Localhost in this simulation)
+- **Username:** `username`
+- **Password:** `password`
+
+In this setup, both the SSH honeypot server and the simulated attacker are hosted on the same local machine, which is why the IP address logged is `127.0.0.1`. In a **real-world deployment**, this would be replaced with the **public IP address** of the attacker attempting to breach the network perimeter.
+
+These logs serve as an essential tool for cybersecurity analysts to:
+- Track unauthorized access attempts.
+- Understand attacker behavior.
+- Improve network defenses based on observed patterns.
+
+All logs are stored persistently in the `audits.log` file and are available for further analysis.
+
+![audit](https://github.com/user-attachments/assets/b7b9f11f-de93-43ee-9dd6-e8eb53b94162)
+
+
+
 
 
 
