@@ -1,0 +1,5 @@
+[127.0.0.1] ls
+[127.0.0.1] pwd
+[127.0.0.1] cat jupbox1.conf
+[127.0.0.1] cat jumpbox1.conf
+[127.0.0.1] exit
