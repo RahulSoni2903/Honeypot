@@ -46,4 +46,13 @@ Below is the high-level deployment architecture of the honeypot system:
 
 ![honeypy](https://github.com/user-attachments/assets/afecf0d8-094f-4fb1-a0fd-3f2cde99a482)
 
+## 🧪 Practical Demonstration – SSH Honeypot Running
+
+The following screenshot captures a live instance of the SSH Honeypot in action. It shows the honeypot being executed using the `python3 ssh_honey.py` command. Once initiated, the honeypot listens on a custom port (`2225`) and simulates an SSH server environment for attackers to interact with.
+
+This allows logging of malicious connection attempts and shell activity without exposing the real infrastructure.
+
+![ssh server](https://github.com/user-attachments/assets/52f9ccbd-184f-4a05-86b0-83b33636b969)
+
+
 
