@@ -40,4 +40,10 @@ Great! Here's a short and professional description you can include in your `READ
 
 - **Argparse**: A built-in Python module used for parsing command-line arguments. It allows users to easily customize and run the honeypot with different configurations directly from the terminal.
 
+## 🗺️ Deployment Diagram
+
+Below is the high-level deployment architecture of the honeypot system:
+
+![honeypy](https://github.com/user-attachments/assets/afecf0d8-094f-4fb1-a0fd-3f2cde99a482)
+
 
