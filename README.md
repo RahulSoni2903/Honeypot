@@ -92,9 +92,15 @@ All logs are stored persistently in the `audits.log` file and are available for 
 
 ![audit](https://github.com/user-attachments/assets/b7b9f11f-de93-43ee-9dd6-e8eb53b94162)
 
+## 🕵️‍♂️ Command Audit Logging – Monitoring Attacker Behavior
 
+📌 **Label:** Command Activity Log
 
+This section highlights the command logging capabilities of the SSH honeypot. Once an attacker successfully gains access using captured credentials, every command they execute within the fake environment is meticulously logged in the `cmd_audits.log` file.
 
+These logs are crucial for understanding an attacker's intent and behavior. By analyzing the sequence of commands, security teams can assess:
+- What files or directories the attacker tried to access
+- Whether sensitive or critical configurations were targeted
+- The depth of their interaction within the compromised system
 
-
-
+![cmd audit](https://github.com/user-attachments/assets/852754fe-5c43-4042-a66e-7aaaf0e4e71d)
