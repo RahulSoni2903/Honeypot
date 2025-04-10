@@ -104,3 +104,29 @@ These logs are crucial for understanding an attacker's intent and behavior. By a
 - The depth of their interaction within the compromised system
 
 ![cmd audit](https://github.com/user-attachments/assets/852754fe-5c43-4042-a66e-7aaaf0e4e71d)
+
+## 🌐 Web Honeypot – Simulating Web-Based Attacks
+
+📌 **Label:** Web Honeypot Server
+
+The Web Honeypot is an integral part of this deception-based security infrastructure. Just like the SSH Honeypot, it simulates a vulnerable web application to attract and engage attackers. This system is designed to detect, monitor, and log malicious activity targeting web interfaces.
+
+### 🧠 Objective
+
+The primary purpose of this Web Honeypot is to mimic a real-world web server, tricking attackers into thinking they are interacting with an actual target. It enables defenders to gather information about web-based exploitation attempts, such as:
+- Unauthorized form submissions
+- Directory traversal attempts
+- HTTP methods probing (e.g., GET, POST, PUT)
+- Injection attacks and more
+
+### 📂 Web Honeypot Features
+
+- Simulated admin and login interfaces
+- Fake pages designed to lure attackers into revealing their methods
+- Logs all HTTP requests including IP address, URL paths, and parameters
+- Captures credentials or payloads submitted by intruders
+
+![web_honey](https://github.com/user-attachments/assets/aca8601c-0e59-4342-a370-430865383add)
+
+
+
