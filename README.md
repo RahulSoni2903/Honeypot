@@ -54,5 +54,20 @@ This allows logging of malicious connection attempts and shell activity without 
 
 ![ssh server](https://github.com/user-attachments/assets/52f9ccbd-184f-4a05-86b0-83b33636b969)
 
+## 🎯 Attacker Machine Simulation
+
+The following screenshot demonstrates an attacker's perspective after successfully connecting to the SSH Honeypot. The attacker uses the fake credentials to log into a simulated environment that mimics a real server. The honeypot logs all interactions and command executions for analysis.
+
+### 🔐 SSH Connection Command Used:
+
+```bash
+Command :- ssh -p 2225 username@127.0.0.1
+
+Username: username
+
+Password: password
+
+Port: 2225
+![ubuntu](https://github.com/user-attachments/assets/94440b8e-3a24-4b49-a156-eb2b6de816d3)
 
 
