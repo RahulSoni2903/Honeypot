@@ -30,4 +30,14 @@ By deploying a honeypot, organizations can **stay ahead of attackers**, analyze 
 - Logs attacker IP, payloads, access time, and suspicious commands.
 - Supports integration with a central monitoring system or security information and event management (SIEM) solution.
 - Helps improve overall network security posture by analyzing attacker behavior and techniques.
+Great! Here's a short and professional description you can include in your `README.md` under a new **Technologies Used** section:
+
+### 🧰 Technologies Used
+
+- **Python**: The core language used to develop the honeypot system due to its flexibility, simplicity, and rich set of libraries for network programming and automation.
+
+- **Paramiko**: A powerful Python library for handling SSH connections. It is used to simulate SSH services, allowing the honeypot to mimic real SSH servers and log attacker interactions.
+
+- **Argparse**: A built-in Python module used for parsing command-line arguments. It allows users to easily customize and run the honeypot with different configurations directly from the terminal.
+
 
