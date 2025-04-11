@@ -30,7 +30,7 @@ By deploying a honeypot, organizations can **stay ahead of attackers**, analyze 
 - Logs attacker IP, payloads, access time, and suspicious commands.
 - Supports integration with a central monitoring system or security information and event management (SIEM) solution.
 - Helps improve overall network security posture by analyzing attacker behavior and techniques.
-Great! Here's a short and professional description you can include in your `README.md` under a new **Technologies Used** section:
+ **Technologies Used** section:
 
 ### 🧰 Technologies Used
 
